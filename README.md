@@ -1,4 +1,5 @@
-# Voting-System-in-Python
+⸻
+
 
 # 🗳️ Election Management System (Python + MySQL)
 
@@ -32,24 +33,27 @@ It is mainly created to demonstrate how to connect Python with a MySQL database.
    ```bash
    pip install mysql-connector-python
 
-2.	Create the database and run SQL files:
-	•	First run DDL.sql to create tables.
-	•	Then run DML.sql to insert sample data.
-	•	(Optional) Run DCL.sql to manage permissions.
+	2.	Create the database and run SQL files:
+	•	Run DDL.sql to create tables
+	•	Run DML.sql to insert sample data
+	•	(Optional) Run DCL.sql to manage permissions
+	3.	Update MySQL credentials in voter_project.py if needed:
 
-3.	Update MySQL credentials in voter_project.py if needed:
-   ```bash
-   conn = mysql.connector.connect(
+conn = mysql.connector.connect(
     host="localhost",
     user="root",
     password="yourpassword",
     database="yourdbname"
 )
 
-4.	Run the project:
-    ```bash
-    python voter_project.py
 
+	4.	Run the project:
+
+python voter_project.py
+
+
+
+⸻
 
 🎯 Purpose
 
@@ -58,5 +62,11 @@ This project is a mini DBMS project to practice:
 	•	SQL commands (DDL, DML, DCL)
 	•	Database design with ER diagrams
 
+⸻
+
 👨‍💻 Author
+
 Aradhya Bhagwat
+BTech CSE Student, MIT-WPU
+
+---
